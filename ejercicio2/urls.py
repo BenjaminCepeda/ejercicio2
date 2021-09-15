@@ -17,5 +17,5 @@ from django.urls import path
 from server.lambdadaemon import *
 
 urlpatterns = [
-    path('lambdadaemon/', start_lambda_daemon, name="lambdadaemon"),
+    path('', start_lambda_query, name="lambdaquery"),
 ]
